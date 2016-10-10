@@ -29,11 +29,11 @@ public class Book {
     }
 
     public string getSummary() {
-        return summary
+        return summary;
     }
     
     public void setSummary(String input) {
-        this.summary = input
+        this.summary = input;
     }
     
     public String getTitle() {
