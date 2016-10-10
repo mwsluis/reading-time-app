@@ -28,7 +28,7 @@ public class Book {
         this.cover = cover;
     }
 
-    public string getSummary() {
+    public String getSummary() {
         return summary;
     }
     
