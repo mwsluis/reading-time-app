@@ -10,6 +10,8 @@ public class Book {
     private String author;
 
     private String cover;
+    
+    private String summary;
 
     public Book() {
 
@@ -26,6 +28,14 @@ public class Book {
         this.cover = cover;
     }
 
+    public String getSummary() {
+        return summary;
+    }
+    
+    public void setSummary(String input) {
+        this.summary = input;
+    }
+    
     public String getTitle() {
         return title;
     }
